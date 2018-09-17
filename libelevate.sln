@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libelevate", "libelevate\libelevate.vcxproj", "{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206} = {AE5BAFC9-E4BA-4786-96E4-A564B113B206}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcapcom", "..\libcapcom\libcapcom\libcapcom.vcxproj", "{AE5BAFC9-E4BA-4786-96E4-A564B113B206}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testlibelevate", "testlibelevate\testlibelevate.vcxproj", "{D5D362C4-C5E5-4567-91C1-9563A83423E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E} = {5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}.Debug|x64.ActiveCfg = Debug|x64
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}.Debug|x64.Build.0 = Debug|x64
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}.Debug|x86.Build.0 = Debug|Win32
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}.Release|x64.ActiveCfg = Release|x64
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}.Release|x64.Build.0 = Release|x64
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}.Release|x86.ActiveCfg = Release|Win32
+		{5BBDF4C8-27BC-488C-8D19-B3C345CA1F0E}.Release|x86.Build.0 = Release|Win32
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206}.Debug|x64.ActiveCfg = Debug|x64
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206}.Debug|x64.Build.0 = Debug|x64
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206}.Debug|x86.Build.0 = Debug|Win32
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206}.Release|x64.ActiveCfg = Release|x64
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206}.Release|x64.Build.0 = Release|x64
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206}.Release|x86.ActiveCfg = Release|Win32
+		{AE5BAFC9-E4BA-4786-96E4-A564B113B206}.Release|x86.Build.0 = Release|Win32
+		{D5D362C4-C5E5-4567-91C1-9563A83423E4}.Debug|x64.ActiveCfg = Debug|x64
+		{D5D362C4-C5E5-4567-91C1-9563A83423E4}.Debug|x64.Build.0 = Debug|x64
+		{D5D362C4-C5E5-4567-91C1-9563A83423E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5D362C4-C5E5-4567-91C1-9563A83423E4}.Debug|x86.Build.0 = Debug|Win32
+		{D5D362C4-C5E5-4567-91C1-9563A83423E4}.Release|x64.ActiveCfg = Release|x64
+		{D5D362C4-C5E5-4567-91C1-9563A83423E4}.Release|x64.Build.0 = Release|x64
+		{D5D362C4-C5E5-4567-91C1-9563A83423E4}.Release|x86.ActiveCfg = Release|Win32
+		{D5D362C4-C5E5-4567-91C1-9563A83423E4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8666E26-937D-424D-B5B3-63D9FCD96291}
+	EndGlobalSection
+EndGlobal
